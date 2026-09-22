@@ -15,7 +15,6 @@ export default async function Home() {
     .order("created_at");
 
   const channels: Channel[] = data ?? [];
-
   return (
     <main className="mx-auto max-w-3xl p-8">
       <h1 className="mb-6 text-2xl font-bold">Dashboard Channel YouTube</h1>
